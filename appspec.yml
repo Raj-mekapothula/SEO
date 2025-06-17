@@ -1,0 +1,8 @@
+version: 0.0
+os: windows
+files:
+  - source: \
+    destination: C:\inetpub\wwwroot\DevOpsWorkshop
+hooks:
+  BeforeInstall:
+    - location: .\StageArtifact.ps1
